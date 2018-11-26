@@ -4,8 +4,10 @@ import home from '@/components/home'
 
 Vue.use(Router)
 
-export default new Router({
+export default new Router({ 
   routes: [
-    {path: '/',component: home}
-  ]
+    
+  ],
+  linkActiveClass: 'mui-active'
+  
 })
